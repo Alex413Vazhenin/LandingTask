@@ -1,0 +1,140 @@
+/*Font variables*/
+/*Color variables*/
+/*=================== fonts ====================*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+.header_area {
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+}
+.header_area .company_logo {
+  margin-left: 285px;
+  margin-top: 20px;
+}
+.header_area h4 {
+  color: #6E7FF3;
+}
+.header_area .menu_nav {
+  width: 100%;
+}
+.header_area .navbar {
+  padding: 0px;
+  border: 0px;
+  border-radius: 0px;
+  width: 100%;
+}
+.header_area .navbar .nav .nav-item {
+  margin-right: 45px;
+}
+.header_area .navbar .nav .nav-item .nav-link {
+  font: 500 14px "Rubik", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0px;
+  display: inline-block;
+}
+.header_area .navbar .nav .nav-item .nav-link:after {
+  display: none;
+}
+.header_area .navbar .nav .nav-item:hover .nav-link {
+  color: #e2e619;
+}
+.header_area .navbar #rounded_outline {
+  margin-right: 100px;
+  border-radius: 2rem;
+}
+
+body {
+  line-height: 26px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #777777;
+  background: url(../img/background.png);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.primary-border {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.sample-text-area {
+  padding: 340px 0px;
+}
+.sample-text-area span {
+  color: #6E7FF3;
+}
+.sample-text-area p {
+  line-height: 26px;
+  color: #a2a5ac;
+}
+.sample-text-area .cryptency {
+  margin-right: 220px;
+}
+.sample-text-area .cryptency #rounded1 {
+  border-radius: 2rem;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+.sample-text-area .cryptency #rounded2 {
+  border-radius: 2rem;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.sample-text-area .ico {
+  background-color: #1b2237;
+}
+.sample-text-area .ico h2 {
+  padding-top: 30px;
+}
+.sample-text-area .ico h6 {
+  color: #6E7FF3;
+}
+.sample-text-area .ico .course {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.sample-text-area .ico .ico-item {
+  padding: 40px 10px 10px 20px;
+}
+.sample-text-area .ico .time {
+  padding-left: 10px;
+}
+.sample-text-area .ico #rounded3 {
+  border-radius: 2rem;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+.sample-text-area{
+	padding: 340px 0px;
+    span {
+        color: #6E7FF3;
+    }
+	p {
+		line-height: 26px;
+		color: #a2a5ac;
+	}
+	.cryptency {
+		margin-right: 220px;
+		#rounded1 {
+			border-radius: 2rem;
+			margin-right: 25px;
+			margin-top: 20px;
+		}
+		#rounded2 {
+			border-radius: 2rem;
+			margin-left: 25px;
+			margin-top: 20px;
+		}
+	}
+	
+	.ico {
+		background-color: #1b2237;
+		h2 {
+			padding-top: 30px;
+		}
+		h6 {
+			color: #6E7FF3;
+		}
+		.course{
+			padding-top: 10px;
+			padding-left: 10px;
+		}
+		.ico-item {
+			padding: 40px 10px 10px 20px;
+		}
+		.time {
+			padding-left: 10px;
+		}
+		#rounded3 {
+			border-radius: 2rem;
+			margin-top: 20px;
+		}
+	}
+}

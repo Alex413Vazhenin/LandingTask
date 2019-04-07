@@ -1,0 +1,46 @@
+//header_area css
+.header_area {
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    .company_logo {
+        margin-left: 285px;
+        margin-top: 20px;
+    }
+    h4 {
+        color: #6E7FF3;
+    }
+    .menu_nav {
+        width: 100%;
+    }
+    .navbar {
+        padding: 0px;
+        border: 0px;
+        border-radius: 0px;
+        width: 100%;
+        .nav {
+            .nav-item {
+                margin-right: 45px;
+                .nav-link {
+                    font: 500 14px $title-font;
+                    text-transform: uppercase;
+                    color: $title-color;
+                    padding: 0px;
+                    display: inline-block;
+                    &:after {
+                        display: none;
+                    }
+                }
+                &:hover {
+                    .nav-link {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+        #rounded_outline {
+            margin-right: 190px;
+            border-radius: 2rem;
+        }
+    }
+}
